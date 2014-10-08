@@ -1,0 +1,37 @@
+Waleed Gudah
+10/5/2014
+Senior Design
+ZvH Group
+Waleed, Kimberly, Timothy
+
+							Quadratic Solver User Story
+
+	1. User can enter a, b, c of the quadratic equation (ax^2+bx+c=0) for which they'd like a solution.
+		Priority:10
+		Estimate:1
+		Example: qSolve(Double a, Double b, double c, double x1, double x2);
+
+	2.Display to the user the solution(the roots)
+		Priority:10
+		Estimate:1
+
+	2. Display to the user if they roots of the number are (complex) or (real)numbers
+		#define COMPLEX : 0
+		#define Real:1
+		Priority:6
+		Estimate:1
+
+
+	3. If the results are both equal then display to the user "Roots are Equal"
+		Priority:2
+		Estimate:1
+	4. Does the solution contain a double or a two or an error
+		
+		
+		#define DOUBLE	: 2
+		#define TWO : 3
+		#define EOF : -1
+
+
+
+	
